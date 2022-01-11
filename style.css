@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=The+Nautigal:wght@700&display=swap')
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    background: #f9f9f9;
+    font-family: 'The Nautigal', cursive;
+    font-size: 18px;
+}
+.container{
+   position: absolute;
+   left:50%;
+   top:50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: #ffff;
+    text-align: center;
+    box-shadow: 1px 1px 13px;
+    border-radius: 18px;
+
+}
+
+
+ h1{
+    font-size: 25px;
+    background-color: #cef5e4;
+    padding:18px 0;
+    border-radius: 18px;
+   
+    
+    
+}
+.control{
+    margin: 25px 0;
+    
+}
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #16a465;
+    font-size: 22px;
+    margin-top: 15px;
+}
+select{
+    border: none;
+    outline: none;
+    border: 1px solid #16a465;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 11px 34px;
+    border-radius: 25px;
+
+   font-style: oblique;
+    
+
+
+}
+button{
+    color:white;
+    background: #16a465;
+    border: 1px solid transparent;
+    padding: 14px 29px;
+    margin:20px;
+    border-radius: 25px;
+    transition: all .5s ease;
+    font-size: 18px;
+    
+}
+button:hover{
+    color: #16a465;
+    background-color: #16a465;
+    background: white;
+}
+.totaltip{
+    background-color: #cef5e4;
+    border-radius: 18px;
+    
+
+}
+#TipAmount{
+    font-size: 28px;
+    color: #29c782;
+}
+.totaltip p{
+    margin-top: 10px;
+}
+
+
